@@ -136,6 +136,12 @@
 
          const newPricing = decreaseQuantity * 59;
          document.getElementById("case-pricing").innerText = '$' + newPricing;
+
+         const finalSubTotal = newPricing;
+         document.getElementById("sub-total").innerText = '$' + finalSubTotal;
+
+         const finalTotalNumber = finalSubTotal;
+         document.getElementById("total").innerText = '$' +  finalTotalNumber;
       })
    </script>
 </body>
